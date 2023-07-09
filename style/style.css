@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* header part start */
 .header-area {
     width: 100%;
@@ -19,21 +20,25 @@
     align-items: center;
     text-align: end;
 }
+
 .header-text {
     width: 30%;
     padding: 215px 225px;
 }
+
 .header-text h1 {
     color: #FFF;
     font-size: 65px;
     font-weight: 700;
 }
+
 .header-text p {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     margin: 20px 0;
 }
+
 .btn-primary {
     padding: 18px 22px;
     border: 0;
@@ -42,6 +47,7 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 /* header part end */
 
 /* main part start */
@@ -53,11 +59,13 @@
     text-align: start;
     padding: 130px 322px;
 }
+
 .previous-text h3 {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
+
 .previous-text p {
     color: #444343;
     font-size: 16px;
@@ -65,10 +73,12 @@
     line-height: 26px;
     margin: 20px 0;
 }
+
 .my-plans-area {
     text-align: center;
     margin-bottom: 135px;
 }
+
 .my-plans-area h2 {
     color: #151414;
     text-align: center;
@@ -76,24 +86,28 @@
     font-weight: 700;
     margin-bottom: 60px;
 }
+
 .plans {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .plans-img h4 {
     color: #151414;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
+
 .plans-img p {
     color: #737272;
     text-align: center;
     font-size: 25px;
     font-weight: 500;
 }
+
 .calls-area {
     width: 80%;
     background-image: url('../images/watch.png'), url('../images/gradient1.png');
@@ -106,16 +120,19 @@
     border-radius: 8px;
     margin-bottom: 100px;
 }
+
 .calls-text {
     width: 40%;
     padding: 150px 76px;
 }
+
 .calls-text h3 {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
 }
+
 /* main part end */
 
 /* footer part start */
@@ -125,6 +142,7 @@ footer {
     padding: 130px 200px;
     justify-content: space-between;
 }
+
 .future h3 {
     color: #F8F8F8;
     font-size: 45px;
@@ -141,6 +159,7 @@ footer {
 .future a img {
     padding-right: 15px;
 }
+
 .subscribe h5 {
     color: #FFF;
     font-size: 25px;
@@ -162,5 +181,9 @@ footer {
     border-radius: 8px;
     background: #005FAC;
     padding: 18px 27px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
+
 /* footer part end */
