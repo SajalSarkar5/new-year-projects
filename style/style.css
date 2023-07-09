@@ -46,6 +46,7 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 .previous-year {
     display: flex;
     justify-content: space-between;
@@ -54,20 +55,74 @@
     text-align: start;
     padding: 130px 322px;
 }
-.previous-img {
 
-}
-.previous-img img {
-}
-.previous-text {
-
-}
 .previous-text h3 {
-
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 }
+
 .previous-text p {
-
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0;
 }
-.check-icons {
-    
+
+.my-plans-area {
+    text-align: center;
+    margin-bottom: 135px;
+}
+
+.my-plans-area h2 {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plans-img h4 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plans-img p {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.calls-area {
+    width: 80%;
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.calls-text {
+    width: 40%;
+    padding: 150px 76px;
+}
+.calls-text h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
